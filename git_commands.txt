@@ -15,4 +15,12 @@ ls
  rm testing.py                                                                                  
  git status                                                                                     
  git restore testing.py                                                                         
- git status 
+ git status                                                                                     
+ git add git_commands.txt                                                                       
+ git status                                                                                     
+ git commit -m "added git commands"                                                             
+ git status                                                                                     
+ git remote add origin https://github.com/IrfanBhagawan/github-for-devops-workshop.git          
+ git push origin master                                                                         
+ git remote -v      
+ git remote set-url origin htttps://PAC@githubrepo
